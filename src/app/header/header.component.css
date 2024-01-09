@@ -1,0 +1,418 @@
+.container1{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/assets/img/background img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+ 
+}
+pre{
+   fill: gray;
+}
+.main-head{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-head img{
+    height: 100px;
+    margin-left: 20px;
+}
+.page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 150px;
+}
+.btn-group{
+    margin: 60px;
+width: 70px;
+padding: 10px;
+}
+.btn{
+    background-color: transparent;
+    width: 100px;
+    color: white;
+}
+
+.btn:hover{
+border: 2px solid white;
+}
+.btn1{
+    background-color: red;
+    border-radius: 10px;
+}
+/* main */
+.main{   margin: 50px;
+     color: white;
+    text-align: center;
+
+}
+.main h1{
+    font-size: 60px;
+    font-weight: 800;
+    margin: 10px;
+}
+.input-group{
+    width: 500px;
+    border-radius: 10px;
+  margin-left:420px ;
+}
+.input-group input{
+    color: white;
+   align-items: center;
+  
+}
+.input-group ::placeholder{
+    color: white;
+}
+.input-group .btn{
+    background-color: red;
+  }
+#btn1{
+    width:150px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.right{
+  fill: white;
+}
+.gloab{
+    fill: white;
+}
+/* main */
+@media screen and (width:750px) {
+    .container1{
+             height:500px;
+     
+    }
+    .main h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .input-group {
+        width: 450px;
+        border-radius: 10px;
+        margin-left: 130px;
+    }
+}
+@media screen and (width:450px) {
+    .main-head {
+        height: 76px;
+          }
+    .container1{
+             height: 470px;
+         }
+         .btn-group {
+            margin: 100px;
+            width: 6px;
+        }
+        .btn {
+            background-color: transparent;
+            width: 87px;
+            color: white;
+        }
+    .main{
+        margin-top: 100px;
+    }
+    .main h1{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .main h3{
+        font-size: 15px;
+    }
+    .input-group {
+        width: 350px;
+        border-radius: 10px;
+        margin-left: 10px;
+    
+    }
+    .input-group input{
+        height: 35px;
+    }
+    #btn1{
+        height: 35px;
+        width:150px;
+      margin-left: 5px;
+      border-radius: 5px;
+      font-size: 15px;
+      padding: 10px;
+    }
+}
+/* panel1 */
+.container3{
+    border-top:6px solid #333 ;
+}
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    border-top:6px solid #333 ;
+}
+.container-fluid{
+    background-color: black;
+    border-top:6px solid #333 ;
+}
+.enjoy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.tv img{
+    width: 500px;
+}
+.page1 h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+.page1 p{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+.kids{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;  
+}
+@media screen and (width:750px){
+    .container-fluid[_ngcontent-wlk-c50] {
+            height: 500px;
+    }
+    .enjoy{
+        padding: 50px;
+        
+    }
+    .tv img {
+        width: 369px;
+        padding: 40px;
+    }
+  
+    .page1 h1 {
+        width: 318px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .page1  p {
+            font-size: 20px;
+        font-weight: 200;
+    }
+    .feature{
+        padding: 50px;
+    }
+    .mobile img{
+        width: 400px;
+        margin-right: -45px
+    }
+    .kids{
+        padding: 50px;
+    }
+    .cartoon img{
+        width: 360px;
+    }
+}
+@media screen and (width:450px) {
+    .container-fluid {
+        background-color: black;
+        width: 100%;
+        height: 350px;
+    }
+    .enjoy {
+           padding: 32px;
+           padding-top: 177px;
+    }
+    .tv img {
+        width: 173px;
+    }
+    .page1 h1 {
+        color: white;
+        font-size: 20px;
+    }
+    .page1 p {
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .feature {
+        padding: 32px;
+        padding-top: 177px;
+ }
+ .mobile img {
+     width: 173px;
+ }
+ .kids {
+    padding: 32px;
+    padding-top: 177px;
+}
+.cartoon img {
+ width: 173px;
+}
+
+
+}
+.freq_container{
+    background-color: rgb(0, 0, 0);
+    height: 75rem;
+    border-top:6px solid #333 ;
+}
+.freq_container h1{
+    color: white;
+    box-shadow: inset 0 0 3rem rgba(0,0,0,0.8);
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+.que_ans h3{
+    text-align: center;
+    font-weight: 400;
+}
+.que_ans p{
+    color: antiquewhite;
+    margin-top: 1rem;
+    font-size: 20px;
+    border-top: 2px solid black;
+    padding: 1rem;
+}
+.freqs{
+    color: white;
+}
+.faq{
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(77, 76, 76);
+    margin: 20px;
+    margin-left: 250px;
+    width: 900px;
+  
+}
+.faq:hover{
+    background-color: gray;
+}
+.freq_plus {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: white;
+    font-size: 50px;
+}
+#icon{
+  all: unset;
+}
+#icon:active{
+  opacity: 1;
+ 
+  }
+
+  .lastdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  }
+#my_btn{
+  font-size: larger;
+  width: 250px;
+  height: 50px;
+}
+
+@media screen and (width:750px){
+    .faq {
+        margin-left: 136px;
+        width: 510px;
+       
+    }
+    .freq_container {
+        background-color: rgb(0, 0, 0);
+        height: 81rem;
+    }
+    .freq_container h1{
+            font-size: 40px;
+        font-weight: 600;
+    }
+
+        .que_ans h3 {
+            text-align: center;
+            font-weight: 300;
+        }
+}
+@media screen and (width:450px){
+    .freq_container {
+        height: 68rem;
+    }
+
+    .freq_container h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .faq{
+        margin: 18px;
+        margin-left: -24px;
+        width: 473px;
+    }
+    .que_ans h3 {
+        text-align: center;
+        font-weight: 200;
+    }
+    .que_ans p {
+        margin-top: 1rem;
+        font-size: 10px;
+        padding: 1rem;
+    }
+}
+
+
+/* footer */
+.container2{
+    background-color: black;
+    padding: 50px 15% 10px;
+    border-top:6px solid #333 ;
+}
+.foot h4{
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+.foot h4 a{
+    color: aliceblue;
+}
+
+.link .col {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+margin-bottom: 20px;
+padding: 10px;
+
+}
+.link .col  a{
+    display: inline;
+       
+    margin-bottom: 10px;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+.link .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+#Net{
+    color: white;
+    margin-top: 10px;
+}
